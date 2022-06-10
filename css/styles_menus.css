@@ -56,6 +56,10 @@
         
         background-color: #f6f6f6;
         border-radius: 50px 50px 0 0;
+        background-color: #f6f6f6;
+        width: auto;
+        margin:0 -8px;
+        padding: 0 8px 50px 8px;
     }
 
     /* CONTAINER MENUS */
@@ -84,7 +88,16 @@
         
     }
     .card-title {
-        ;
+        padding: 5px 0 10px 15px;
+        line-height: 5px;
+        margin-bottom: 10px;
+    }
+    .card, a {
+        text-decoration: none;
+    }
+    .para-c {
+        font-weight: 900;
+        font-size: 13pt;
     }
     .rowDescription {
         display: flex;
@@ -127,8 +140,39 @@
 
     /* FOOTER */
 
-    footer{
+    footer {
         background-color: #353535;
+        background-size: auto;
+        
+        width: auto;
+        padding-left: 0;
+        margin: 0 -8px -10px -10px;
+        line-height: 1.5em;
+       
+    }
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
+    footer a:visited {
+        color: white;
+    }
+    .fork {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 10px; 
+    }
+    .fa.fa-utensils, .fa-solid.fa-handshake-angle {
+        margin-right: 10px;
+        color: white;
+    }
+    .fa-solid.fa-handshake-angle {
+        font-size: 9pt;
+    }
+    footer h3 {
+        letter-spacing: 0.1em;
+        font-weight: 500;
         color: white;
     }
 
