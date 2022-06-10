@@ -129,6 +129,7 @@
         background-color: #eaeaea;
         padding-left: 20px;
         font-weight: 900;
+        outline: none;
     }
 
     form {
