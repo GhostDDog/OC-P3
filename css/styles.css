@@ -233,6 +233,9 @@
     
     .container-cards {
         background-color: #f6f6f6;
+        width: auto;
+        margin:0 -8px;
+        padding: 0 8px 50px 8px;
     }
     #t-resto {
         padding: 50px 0 10px 10px;
@@ -308,7 +311,12 @@
 
     footer{
         background-color: #353535;
+        background-size: auto;
         color: white;
+        width: auto;
+        padding-left: 0;
+        margin: 0 -8px -10px -10px;
+        line-height: 1.5em;
     }
     footer a:visited {
         color: white;
@@ -317,6 +325,16 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding-left: 10px;
+        margin-right: 10px; 
+    }
+    .fa.fa-utensils, .fa-solid.fa-handshake-angle {
+        margin-right: 10px;
+    }
+    .fa-solid.fa-handshake-angle {
+        font-size: 9pt;
+    }
+    h3 {
+        letter-spacing: 0.1em;
+        font-weight: 500;
     }
 }
