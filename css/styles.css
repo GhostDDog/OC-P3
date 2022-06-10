@@ -227,7 +227,13 @@
         margin-left: -50px;   
     }
     .filtres:hover {
-        background-color: #f5edff;
+        background-color: #e4d4f8;
+        color:#9356DC ;
+    }
+    .fa.fa-mobile, .fa.fa-list-ul, .fas.fa-store {
+        margin-right: 40px;
+        margin-left: -20px;
+        font-size: 1.2em;
     }
 
     /* Container cards*/
@@ -244,7 +250,7 @@
         font-size:1.5em;
         font-weight: 900;
     }
-    #t-new {
+    .t-new {
         display: flex;
         position: relative;
         float:right;
