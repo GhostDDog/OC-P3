@@ -103,7 +103,7 @@
         text-decoration: none;
     }
     .card-title {
-        padding: 10px 0 10px 15px;
+        padding: 5px 0 5px 15px;
         
         margin-bottom: 20px;
     }
@@ -119,6 +119,7 @@
         flex-direction: row;
         justify-content: space-between;
         font-size: 12pt;
+        margin-top: -10px;
     }
     .position { /* tarifs */
         display: flex;
