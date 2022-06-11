@@ -44,23 +44,34 @@
 
     /*IMG HEAD*/
     .imghead {
-        background-repeat: no-repeat;
-        padding: 0;
-        width: 103%;
+        display: flex;
+        position: relative;
+        width:100%;
         height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .imghead2 {
         margin-left: -10px;
-        margin-right: -50px;
+        margin-right: -8px;
+    }
+    .sizeNote {
+        ;
     }
 
 
     /* container MAIN */
     main {
-        background-color: #f6f6f6;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background-color: #d6d6d6;
         border-radius: 50px 50px 0 0;
         width: auto;
         margin-right: -8px;
         margin-left: -8px;
-        margin-top: -20px;
+        margin-top: -50px;
         padding: 0px 8px 50px 8px;
     }
 
@@ -143,9 +154,9 @@
     /* FOOTER */
 
     footer {
+        display: flex;
         background-color: #353535;
         background-size: auto;
-        
         width: auto;
         padding-left: 0;
         margin: 0 -8px -10px -10px;

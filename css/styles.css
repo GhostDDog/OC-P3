@@ -104,6 +104,9 @@
         font-family: "Roboto", "sans-serif";
     }
     
+    a {
+        color: black;
+    }
     h3 {
         font-family: "Shrikhand", "sans-serif";
     }
