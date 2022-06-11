@@ -328,8 +328,8 @@
         margin: 0 -8px -10px -10px;
         line-height: 1.5em;
     }
-    footer a:visited {
-        color: white;
+    footer a:visited, a:link {
+        color: white !important;
     }
     .fork {
         display: flex;

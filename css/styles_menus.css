@@ -99,26 +99,30 @@
         box-shadow: 0 0 10px rgb(192, 191, 191);
         
     }
-    .card-title {
-        padding: 5px 0 10px 15px;
-        line-height: 5px;
-        margin-bottom: 10px;
-    }
     .card, a {
         text-decoration: none;
     }
+    .card-title {
+        padding: 10px 0 10px 15px;
+        line-height: 0;
+        margin-bottom: 20px;
+    }
+    
     .para-c {
-        font-weight: 900;
-        font-size: 13pt;
+        font-weight:bold;
+        font-size: 16pt;
     }
     .rowDescription {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        font-size: 14pt;
     }
     .position {
         display: flex;
-        margin-right: 10px;
+        margin-right: 25px;
+        font-weight: bold;
+        
         
     }
 
