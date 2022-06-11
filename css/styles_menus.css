@@ -11,6 +11,7 @@
     
     h1, h3 {
         font-family: "Shrikhand", "sans-serif";
+        font-weight: 400;
     }
     a {
         color: black;
@@ -56,9 +57,7 @@
         margin-left: -10px;
         margin-right: -8px;
     }
-    .sizeNote {
-        ;
-    }
+    
 
 
     /* container MAIN */
@@ -66,7 +65,7 @@
         display: flex;
         flex-direction: column;
         position: relative;
-        background-color: #d6d6d6;
+        background-color: #f6f6f6;
         border-radius: 50px 50px 0 0;
         width: auto;
         margin-right: -8px;
