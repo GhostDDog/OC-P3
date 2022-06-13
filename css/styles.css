@@ -19,6 +19,64 @@
         padding: 20px;
     }
     
+/* ANIMATION SPINNER */
+  .anim-ring {
+    display: flex;
+    position:absolute;
+    width: auto;
+    height: auto;
+    top: -10px;
+    margin-left: 33%;
+    }
+
+  .anim-ring:after {
+    content: " ";
+    display: flex;
+    width: 150px;
+    height: 150px;
+    margin-top: 150px;
+    border-radius: 50%;
+    border: 20px solid #9356DC;
+    border-color: #9356DC transparent #FF79DA transparent;
+    animation: anim-ring 1.2s linear infinite;
+    
+    
+    }
+    
+  @keyframes anim-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+   
+  @-webkit-keyframes deplacement { /* Safari, Opera, Chrome */
+    0% {
+        transform: translateY(-80%);
+    }
+   
+    30% {
+        transform: translateY(50%);
+    }
+    75% {
+        transform: translateY(50%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+   
+    
+  }
+  .anim-ring{
+    animation-duration: 4s;
+    -webkit-animation: deplacement 3s linear; /* Safari, Opera, Chrome */
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+  }
+  /* FIN ANIM SPINNER */
+    
     .logo {
         width: 50%;
         display: flex;
@@ -215,9 +273,10 @@
         box-shadow: 0 2px 10px rgb(214, 214, 214);
         width:auto;
         font-size: 14pt;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         align-items: center;
         cursor: pointer;
+        margin-left: 10px;
     }
     .circle {
         display: flex;
