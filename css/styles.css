@@ -83,7 +83,7 @@
     }
   }
    
-  @-webkit-keyframes deplacement { /* Safari, Opera, Chrome */
+  @-webkit-keyframes deplacement { /* Chrome */
     0% {
         transform: translateY(-80%);
         opacity: 0;
@@ -99,7 +99,7 @@
     }
     100% {
         transform: translateY(-100%);
-        opacity: 20%;
+        opacity: 0;
     }
     
   }
