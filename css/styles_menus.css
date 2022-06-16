@@ -70,8 +70,6 @@
     .imghead2 {
         margin-left: -10px;
         margin-right: -8px;
-        margin-top: -50px;
-
     }
 
 
@@ -86,8 +84,16 @@
         width: auto;
         margin-right: -8px;
         margin-left: -8px;
-        margin-top: -180px;
+        margin-top: -30px;
         padding: 0px 8px 50px 8px;
+    }
+    #IMGH {
+        margin-top: -80px;
+        overflow: hidden;
+        
+    }
+    #LNE {
+        margin-top: -180px;
     }
 
     /* CONTAINER MENUS */
