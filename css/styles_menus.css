@@ -120,6 +120,7 @@
         margin-right: 0;
         margin-bottom: 20px;
         box-shadow: 0 0 10px rgb(192, 191, 191);
+        cursor: pointer;
     }
 
     .card,
