@@ -25,17 +25,15 @@
 }
 .rowDescription { /* sous-titre + prix */
     display: flex;
-    
     flex-direction: row;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
     font-size: 12pt;
     margin-top: -10px;
 }
 .position { /* tarifs */
-    display: flex;
-    margin-right: -100px;
     font-weight: bold;
-    text-align: right;
+    margin-left: auto;
+    margin-right: 20px;
           
 }
 .ellipsis {
