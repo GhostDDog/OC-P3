@@ -1,47 +1,30 @@
-.card{
-    border-radius: 20px;
-    width: 100% !important;
-    height: 100% !important;
-    margin-right:0;
-    margin-bottom: 10px;
-    box-shadow: 0 0 10px rgb(192, 191, 191);
-    
+ 
+ /* ANIMATION MENUS FADEIN */
+
+ .vignets1 {
+  animation: fadein 1s;
 }
-.card, a {
-    text-decoration: none;
+.vignets2 { 
+  animation: fadein 2s;
 }
-.card-title {
-    padding: 5px 0 5px 15px;
-    
-    margin-bottom: 20px;
+.vignets3 { 
+  animation: fadein 3s;
+}
+.vignets4 {
+  animation: fadein 4s;
 }
 
-.para-c { /* titre de la carte */
-    font-weight:bold;
-    font-size: 16pt;
-    margin-bottom: 0;
-    margin-top: 10px;
-    text-align: left;
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
 }
-.rowDescription { /* sous-titre + prix */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 12pt;
-    margin-top: -10px;
-}
-.position { /* tarifs */
-    font-weight: bold;
-    margin-left: auto;
-    margin-right: 20px;
-          
-}
-.ellipsis {
-    margin-right:10px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow : ellipsis;
-}
+
+
+/* début code animation remplissage to-left */
 
 .bloc-couleur {
     width:100%;
@@ -52,16 +35,19 @@
     overflow:hidden;
     text-align:right;
     vertical-align:middle;
-  
+    
   }
+
   .bloc-couleur div{
     position:relative;
     z-index:2;
   }
+
   .couleur-remplissage:after{
     content:'';
     display:flex;
     position:absolute;
+    
     bottom:0;
     top:0;
     left:0;
@@ -98,8 +84,5 @@
     background-color: white;
     border: 5px solid transparent;
     border-radius: 50% 50%;
-    margin-right: -50px;
-    
-    
-        
+    margin-right: -50px;   
   }
