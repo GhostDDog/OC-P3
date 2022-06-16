@@ -1,4 +1,24 @@
- 
+@media screen and (max-width: 375px) {
+  .card:hover .fa.fa-circle-check {
+      transform: translateX(-120%) rotate(360deg)!important;
+      margin-right: -65px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .card:hover .fa.fa-circle-check {
+      transform: translateX(-185%) rotate(360deg)!important;
+  }
+  #to-left2:hover:after {
+          left: 75%;    
+  }
+}
+@media screen and (min-width: 700px) {
+  .to-left:hover:after {
+      left: 85%;
+      margin-left: 90px;
+
+  }
+}
  /* ANIMATION MENUS FADEIN */
 
  .vignets1 {
