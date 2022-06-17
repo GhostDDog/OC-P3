@@ -4,9 +4,9 @@
       margin-right: -65px;
   }
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 500px) {
   .card:hover .fa.fa-circle-check {
-      transform: translateX(-185%) rotate(360deg)!important;
+      transform: translateX(-165%) rotate(360deg)!important;
   }
   #to-left2:hover:after {
           left: 75%;    
@@ -14,8 +14,8 @@
 }
 @media screen and (min-width: 700px) {
   .to-left:hover:after {
-      left: 85%;
-      margin-left: 90px;
+      left: 65% !important;
+      margin-left: 50px;
 
   }
 }
