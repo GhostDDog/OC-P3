@@ -90,7 +90,7 @@
     color:white;
     border: 5px solid transparent;
     border-radius: 50%;
-    margin-left: 150px;
+    margin-left: 100px;
     transform:  translateX(-180%) rotate(360deg);
     transition: 0.35s;
     
@@ -103,5 +103,9 @@
     border: 5px solid transparent;
     border-radius: 50%;
     margin-right: -50px;
-    margin-top: -5px; 
+    margin-top: -10px; 
   }
+
+  .hid2 {
+    opacity: 0;
+}
