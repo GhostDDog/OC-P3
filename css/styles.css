@@ -22,6 +22,56 @@
         padding: 20px;
     }
     
+    /* loader animation */
+    .main {
+        animation: 3s fadeIn;
+        animation-fill-mode: forwards;
+        visibility: hidden;
+    }
+
+    #loading {
+        display:block;
+        
+        width: 150px;
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 200px;
+        visibility: visible;
+        border-radius: 50%;
+        border: 20px solid #9356DC;
+        border-color: #9356DC transparent #FF79DA transparent;
+        animation: spin 1s ease-in-out infinite, fadeOut 3s; 
+        -webkit-animation: spin 1s ease-in-out infinite, fadeOut 3s;
+        animation-fill-mode: forwards;
+        
+    }
+
+    @keyframes fadeIn {
+        99% {
+            visibility:hidden;
+        }
+        100% {
+            visibility: visible;
+            margin-top: -370px;
+        }
+    }
+
+    @keyframes fadeOut {
+        99% {
+            visibility: visible;
+        }
+        100% {
+            visibility: hidden;
+        }
+    }
+    @keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+    }
+    @-webkit-keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+    }
+    
     .logo {
         width: 50%;
         display: flex;
@@ -29,7 +79,8 @@
         flex-wrap: wrap;
         margin-left: auto;
         margin-right: auto;
-        padding: 20px 0 20px 0;
+        
+        padding: 0 0 20px 0;
        
     }
 
@@ -236,6 +287,9 @@
         margin: 0 -8px -10px -10px;
         line-height: 1.5em;
     }
+    footer a {
+        text-align: left!important;
+    }
     footer a:visited {
         color: white !important;
     }
@@ -258,4 +312,8 @@
         letter-spacing: 0.1em;
         font-weight: 500;
     }
+    
+    
+
+
 }
