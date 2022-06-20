@@ -31,7 +31,6 @@
 
     #loading {
         display:block;
-        
         width: 150px;
         height: 150px;
         margin-left: auto;
@@ -44,8 +43,7 @@
         animation: spin 1s ease-in-out infinite, fadeOut 3s; 
         -webkit-animation: spin 1s ease-in-out infinite, fadeOut 3s;
         animation-fill-mode: forwards;
-        
-    }
+        }
 
     @keyframes fadeIn {
         99% {
@@ -72,6 +70,7 @@
     to { -webkit-transform: rotate(360deg); }
     }
     
+    /* HEADER // LOGO + FORMU VILLE */
     .logo {
         width: 50%;
         display: flex;
@@ -79,7 +78,6 @@
         flex-wrap: wrap;
         margin-left: auto;
         margin-right: auto;
-        
         padding: 0 0 20px 0;
        
     }
