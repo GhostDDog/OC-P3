@@ -25,11 +25,12 @@ h3 {
 
 
 /* loader animation */
-/*
+
 .main {
     animation: 3s fadeIn;
     animation-fill-mode: forwards;
     visibility: hidden;
+    
 }
 
 #loading {
@@ -80,4 +81,3 @@ h3 {
         -webkit-transform: rotate(360deg);
     }
 }
-*/

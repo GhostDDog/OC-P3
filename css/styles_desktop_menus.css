@@ -1,0 +1,535 @@
+/* couleurs : Primaire : #9356DC, Secondaire :#FF79DA, Tertiaire : #99E2D0
+   Fonts : Logo et titres: Shrikhand, Texte: Roboto.
+*/
+
+@media screen and (min-width:1201px) {
+
+    * {
+        font-family: "Roboto", "sans-serif";
+
+    }
+
+    h1,
+    h3 {
+        font-family: "Shrikhand", "sans-serif";
+        font-weight: 400;
+    }
+
+    a {
+        color: black;
+    }
+
+    .p-1 {
+        padding: 10px;
+    }
+
+    .p-2 {
+        padding: 20px;
+    }
+
+    /* header // Logo + flèche retour */
+
+    .bannHeader {
+        display: flex;
+        align-items: center;
+        z-index: 1;
+        background-color: white;
+        margin: -10px -8px 0 -8px;
+    }
+
+    .fa.fa-arrow-left {
+        font-size: 2em;
+        margin-left: 30px;
+    }
+
+    .logo {
+        width: 20%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px 0;
+    }
+
+
+    /* images en dessous du HEADER */
+    .imghead {
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: -5;
+        
+
+    }
+
+    .imghead2 {
+        margin-top: -300px;
+        margin-left: -10px;
+        margin-right: -8px;
+        
+    }
+
+    #IMGH {
+        margin-top: -380px!important;
+        overflow: hidden;
+          
+    }
+    
+    #LNE { /*la note enchantée*/
+        margin-top: -850px !important;
+    }
+
+
+    /* container MAIN */
+
+    .desktop-m {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: space-around;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background-color: #f6f6f6;
+        border-radius: 50px 50px 0 0;
+        width: auto;
+        margin-right: -8px;
+        margin-left: -8px;
+        margin-top: -195px;
+        padding: 0px 8px 50px 8px;
+    }
+    #IMGH {
+        margin-top: -80px;
+        overflow: hidden;
+        
+    }
+    #LNE { /*la note enchantée*/
+        margin-top: -180px;
+    }
+
+    /* CONTAINER MENUS */
+
+
+    .t-menus {
+        /*titre du menu (entrées, plats, desserts) */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 20px 0 20px;
+    }
+
+    .t-choix {
+        border-bottom: 3px solid #99E2D0;
+        width: 9%;
+    }
+
+    .fa.fa-heart-o {
+        margin-right: 10px;
+        font-size: 2em;
+    }
+
+    /* cards MENUS */
+
+    .card {
+        border-radius: 20px;
+        width: 450px;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 20px;
+        box-shadow: 0 0 10px rgb(192, 191, 191);
+        cursor: pointer;
+    }
+
+    .card,
+    a {
+        text-decoration: none;
+    }
+
+    .card-title {
+        padding: 5px 0 5px 15px;
+        margin-bottom: 5px;
+    }
+
+    .para-c {
+        /* titre de la carte */
+        font-weight: bold;
+        font-size: 14pt;
+        margin-bottom: 0px;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .rowDescription {
+        /* sous-titre + prix */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 11pt;
+        margin-top: -10px;
+    }
+
+    .position {
+        /* tarifs */
+        font-weight: bold;
+        margin-left: auto;
+        margin-right: 30px;
+
+    }
+
+    .ellipsis {
+        margin-right: 10px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+
+
+    /* bouton commander */
+    .exp {
+        background: linear-gradient(#FF79DA, #9356DC);
+        padding: 15px 50px;
+        border-radius: 50px;
+        border: transparent;
+        box-shadow: 0px 5px 5px rgb(202, 202, 202);
+        font-weight: 800;
+        color: white;
+        cursor: pointer;
+        letter-spacing: 0.1em;
+
+    }
+
+    .buttonComm {
+        display: flex;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        justify-content: center;
+
+    }
+
+    .exp:hover {
+        filter: hue-rotate(15deg);
+        box-shadow: 0px 5px 5px rgb(139, 139, 139);
+        transition-duration: 0.5s;
+    }
+
+    /* FOOTER */
+
+    footer {
+        display: flex;
+        background-color: #353535;
+        background-size: auto;
+        width: auto;
+        padding-left: 0;
+        margin: 0 -8px -10px -10px;
+        line-height: 1.5em;
+
+    }
+
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
+
+    footer a:visited {
+        color: white;
+    }
+
+    .fork {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .fa.fa-utensils,
+    .fa-solid.fa-handshake-angle {
+        margin-right: 10px;
+        color: white;
+    }
+
+    .fa-solid.fa-handshake-angle {
+        font-size: 9pt;
+    }
+
+    footer h3 {
+        letter-spacing: 0.1em;
+        font-weight: 500;
+        color: white;
+    }
+
+}
+
+@media screen and (min-width:993px) and (max-width:1200px) {
+    * {
+        font-family: "Roboto", "sans-serif";
+
+    }
+
+    h1,
+    h3 {
+        font-family: "Shrikhand", "sans-serif";
+        font-weight: 400;
+    }
+
+    a {
+        color: black;
+    }
+
+    .p-1 {
+        padding: 10px;
+    }
+
+    .p-2 {
+        padding: 20px;
+    }
+
+    /* header // Logo + flèche retour */
+
+    .bannHeader {
+        display: flex;
+        align-items: center;
+        z-index: 1;
+        background-color: white;
+        margin: -10px -8px 0 -8px;
+    }
+
+    .fa.fa-arrow-left {
+        font-size: 2em;
+        margin-left: 30px;
+    }
+
+    .logo {
+        width: 20%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px 0;
+    }
+
+
+    /* images en dessous du HEADER */
+    .imghead {
+        display: flex;
+        position: relative;
+        width: 100%;
+        
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: -5;
+        
+
+    }
+
+    .imghead2 {
+        margin-top: -300px;
+        margin-left: -10px;
+        margin-right: -8px;
+        
+    }
+
+    #IMGH {
+        margin-top: -380px!important;
+        overflow: hidden;
+          
+    }
+    
+    #LNE { /*la note enchantée*/
+        margin-top: -580px !important;
+    }
+
+
+    /* container MAIN */
+
+    .desktop-m {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: space-around;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background-color: #f6f6f6;
+        border-radius: 50px 50px 0 0;
+        width: auto;
+        margin-right: -8px;
+        margin-left: -8px;
+        margin-top: -195px;
+        padding: 0px 8px 50px 8px;
+    }
+    #IMGH {
+        margin-top: -80px;
+        overflow: hidden;
+        
+    }
+    #LNE { /*la note enchantée*/
+        margin-top: -180px;
+    }
+
+    /* CONTAINER MENUS */
+
+
+    .t-menus {
+        /*titre du menu (entrées, plats, desserts) */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 20px 0 20px;
+    }
+
+    .t-choix {
+        border-bottom: 3px solid #99E2D0;
+        width: 9%;
+    }
+
+    .fa.fa-heart-o {
+        margin-right: 10px;
+        font-size: 2em;
+    }
+
+    /* cards MENUS */
+
+    .card {
+        border-radius: 20px;
+        width: 450px;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 20px;
+        box-shadow: 0 0 10px rgb(192, 191, 191);
+        cursor: pointer;
+    }
+
+    .card,
+    a {
+        text-decoration: none;
+    }
+
+    .card-title {
+        padding: 5px 0 5px 15px;
+        margin-bottom: 5px;
+    }
+
+    .para-c {
+        /* titre de la carte */
+        font-weight: bold;
+        font-size: 14pt;
+        margin-bottom: 0px;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .rowDescription {
+        /* sous-titre + prix */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 11pt;
+        margin-top: -10px;
+    }
+
+    .position {
+        /* tarifs */
+        font-weight: bold;
+        margin-left: auto;
+        margin-right: 30px;
+
+    }
+
+    .ellipsis {
+        margin-right: 10px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+
+
+    /* bouton commander */
+    .exp {
+        background: linear-gradient(#FF79DA, #9356DC);
+        padding: 15px 50px;
+        border-radius: 50px;
+        border: transparent;
+        box-shadow: 0px 5px 5px rgb(202, 202, 202);
+        font-weight: 800;
+        color: white;
+        cursor: pointer;
+        letter-spacing: 0.1em;
+
+    }
+
+    .buttonComm {
+        display: flex;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        justify-content: center;
+
+    }
+
+    .exp:hover {
+        filter: hue-rotate(15deg);
+        box-shadow: 0px 5px 5px rgb(139, 139, 139);
+        transition-duration: 0.5s;
+    }
+
+    /* FOOTER */
+
+    footer {
+        display: flex;
+        background-color: #353535;
+        background-size: auto;
+        width: auto;
+        padding-left: 0;
+        margin: 0 -8px -10px -10px;
+        line-height: 1.5em;
+
+    }
+
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
+
+    footer a:visited {
+        color: white;
+    }
+
+    .fork {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .fa.fa-utensils,
+    .fa-solid.fa-handshake-angle {
+        margin-right: 10px;
+        color: white;
+    }
+
+    .fa-solid.fa-handshake-angle {
+        font-size: 9pt;
+    }
+
+    footer h3 {
+        letter-spacing: 0.1em;
+        font-weight: 500;
+        color: white;
+    }
+
+}
