@@ -1,106 +1,83 @@
 /* couleurs : Primaire : #9356DC, Secondaire :#FF79DA, Tertiaire : #99E2D0
    Fonts : Logo et titres: Shrikhand, Texte: Roboto.
 */
-@media screen and (max-width:320px) {
-    .anim-ring {
-        margin-left: 10% !important;
-    }
-}
-@media screen and (max-width:375px) {
-    .anim-ring {
-        margin-left: 20% ;
-    }
-}
-@media screen and (max-width:425px) {
-    .anim-ring {
-        margin-left: 25%!important;
-    }
-}
-@media screen and (min-width: 426px) and (max-width: 767px){
-    .anim-ring {
-        margin-left: 32%!important;
-    }
-}
-@media screen and (max-width:768px) {
-    .anim-ring {
-        margin-left: 34%;
-    }
+
+
+* {
+    font-family: "Roboto", "sans-serif";
 }
 
-@media screen and (max-width:992px) {
-    * {
-        font-family: "Roboto", "sans-serif";
-    }
-    
-    a {
-        color: black;
-    }
-    h3 {
-        font-family: "Shrikhand", "sans-serif";
-    }
+a {
+    color: black;
+}
 
-    .p-1 {
-        padding: 10px;
-    }
-    .p-2 {
-        padding: 20px;
-    }
-    /* ANIMATION SPINNER */
+h3 {
+    font-family: "Shrikhand", "sans-serif";
+}
 
-  .anim-ring {
-    display: flex;
-    position:absolute;
-    justify-content: center;
-    width: auto;
-    height: auto;
-    top: -10px;
-    padding: 0;
-    margin-left: 40%;
-    -webkit-animation: deplacement 3.5s linear; /* Safari, Opera, Chrome */
-    animation-iteration-count: 1;
-    animation-fill-mode:forwards;
-    }
+.p-1 {
+    padding: 10px;
+}
 
-  .anim-ring:after {
-    content: " ";
+.p-2 {
+    padding: 20px;
+}
+
+
+/* loader animation */
+/*
+.main {
+    animation: 3s fadeIn;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+
+#loading {
+    display: block;
     width: 150px;
     height: 150px;
-    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    visibility: visible;
     border-radius: 50%;
     border: 20px solid #9356DC;
     border-color: #9356DC transparent #FF79DA transparent;
-    animation: anim-ring 1.2s linear infinite;
-    
-    
-    }
-    
-  @keyframes anim-ring {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-   
-  @-webkit-keyframes deplacement { /* Chrome, mozilla, edge = ok */
-    0% {
-        transform: translateY(-80%);
-        opacity: 0;
-    }
-   
-    30% {
-        transform: translateY(50%);
-        opacity: 70%;
-    }
-    75% {
-        transform: translateY(50%);
-        opacity: 100%;
-    }
-    100% {
-        transform: translateY(-100%);
-        opacity: 0;
-    }
-    
-  }
+    animation: spin 1s ease-in-out infinite, fadeOut 3s;
+    -webkit-animation: spin 1s ease-in-out infinite, fadeOut 3s;
+    animation-fill-mode: forwards;
 }
+
+@keyframes fadeIn {
+    99% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: visible;
+        margin-top: -370px;
+    }
+}
+
+@keyframes fadeOut {
+    99% {
+        visibility: visible;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes spin {
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+*/
