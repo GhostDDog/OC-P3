@@ -225,7 +225,7 @@
         padding-right: 20px;
         bottom: 50px;
         float:right;
-        color: rgb(255, 255, 255);
+        color: transparent;
         -webkit-text-stroke: 1px rgb(2, 2, 2);
         font-size: 1.5em;
         cursor: pointer;
