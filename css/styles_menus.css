@@ -92,7 +92,7 @@
         overflow: hidden;
         
     }
-    #LNE { /*la note enchantée*/
+    #LNE { /*la note enchantée // réglage spécifique taille*/
         margin-top: -180px;
     }
 
@@ -108,13 +108,14 @@
         padding: 20px 20px 0 20px;
     }
 
+
     .t-choix {
         border-bottom: 3px solid #99E2D0;
         width: 9%;
     }
 
     .fa.fa-heart {
-        
+        padding: 10px;
         font-size: 1.5em;
     }
 
