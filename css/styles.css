@@ -217,18 +217,39 @@
         font-weight: 900;
         font-size: 13pt;
     }
-    .heart {
+    
+    
+    .fa.fa-heart {
         display: flex;
         position: relative;
-        color: #d1cece;
         padding-right: 20px;
         bottom: 50px;
         float:right;
+        color: rgb(255, 255, 255);
+        -webkit-text-stroke: 1px rgb(2, 2, 2);
         font-size: 1.5em;
-    }
-    .heart:hover {
-        color: #d98cdf;
-        transition-duration: 1s;
+        cursor: pointer;
+      }
+     
+      
+      .fa.fa-heart:hover {
+        transition: 5s;
+        transition-timing-function: ease;
+        background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color:transparent;
+        -webkit-text-stroke: transparent;
+      }
+      .fa.fa-heart:hover {
+        animation: fadein 2s;
+      }
+      @keyframes fa-heart {
+        from {
+            opacity:0%;
+        }
+        to {
+            opacity:100%;
+        }
     }
    
     /* FOOTER */
