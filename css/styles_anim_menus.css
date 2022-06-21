@@ -1,4 +1,5 @@
 
+/* réglages de l'animation right to left */
 @media screen and (min-width:280px) and (max-width: 378px) {
   .to-left:hover:after {
     left:65% !important;
