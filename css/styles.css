@@ -188,9 +188,9 @@
         height: 100%;
         margin: 0 10px 0 0;
         padding:0;
-        box-shadow: 0 0 10px rgb(192, 191, 191);
-        
+        box-shadow: 0 0 10px rgb(192, 191, 191);   
     }
+    
     .card-image{
         display: flex;
         flex-direction: column;

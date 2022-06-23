@@ -249,6 +249,10 @@ form {
 a {
     text-decoration: none;
 }
+.card-image:hover img {
+    filter: brightness(80%);
+    transition-duration: 0.5s ;
+}
 
 .para-c {
     font-weight: 900;
