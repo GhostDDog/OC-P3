@@ -1,5 +1,7 @@
 /* couleurs : Primaire : #9356DC, Secondaire :#FF79DA, Tertiaire : #99E2D0
    Fonts : Logo et titres: Shrikhand, Texte: Roboto.
+
+   Fichier validé W3C.
 */
 
 
@@ -61,7 +63,7 @@
         margin-left: 25px;
     }
 
-    .rez {
+    .rez { /* container 2 titres + bouton "Explorer ..." */
         background-color:#f6f6f6;
         display: flex;
         flex-wrap: wrap;
@@ -71,20 +73,20 @@
         margin-right: -8px;
         align-items: center;
     }
-    .t1 {
+    .t1 { /* Réservez le menu qui vous convient */
         font-size: 1.5em;
         font-weight: bolder;
         text-align: center;
         padding: 0 20px;
     }
-    .t2 {
+    .t2 { /*Découvrez des restaurants d'exception... */
         font-size: 1.2em;
         margin-top: -20px;
         padding-left: 20px;
         text-align: center;
     }
     /* bouton explorer */
-    .exp {
+    .exp { /*réglages bouton */
         background: linear-gradient(#FF79DA, #9356DC);
         padding: 15px;
         border-radius: 50px;
@@ -107,20 +109,19 @@
     }
 
     /* Partie FONCTIONNEMENT */
+
     .fonctionnement {
         font-weight:900;
         font-size:1.5em;
         margin-left: 10px;
         padding-top: 10px;
     }
-    .fonctionnement2 {
-        display: none;
-    }
+    
     .alignFiltres {
         display: flex;
         flex-direction: column;
         padding: 10px;
-        margin-bottom: 50px;   
+        margin-bottom: 30px;   
     }
     .filtres {
         display: flex;
@@ -135,7 +136,7 @@
         cursor: pointer;
         margin-left: 10px;
     }
-    .circle {
+    .circle { /*rond violet numéroté, Primaire : #9356DC*/
         display: flex;
         position: relative;
         background-color:#9356DC;
@@ -169,7 +170,7 @@
         font-size:1.5em;
         font-weight: 900;
     }
-    .t-new {
+    .t-new { /* rectangle "NOUVEAU"*/
         display: flex;
         position: relative;
         float:right;
@@ -220,7 +221,6 @@
         font-size: 13pt;
     }
     
-    
     .fa.fa-heart {
         display: flex;
         position: relative;
@@ -233,7 +233,6 @@
         cursor: pointer;
       }
      
-      
     .fa.fa-heart:hover {
         transition: 5s;
         transition-timing-function: ease;

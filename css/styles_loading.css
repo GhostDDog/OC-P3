@@ -1,5 +1,9 @@
 /* couleurs : Primaire : #9356DC, Secondaire :#FF79DA, Tertiaire : #99E2D0
    Fonts : Logo et titres: Shrikhand, Texte: Roboto.
+   
+   Fichier validé W3C.
+
+   Page uniquement pour le Loader.
 */
 
 
@@ -26,7 +30,7 @@ h3 {
 
 /* loader animation */
 
-.main {
+.main { /* site entier */
     animation: 3s fadeIn;
     animation-fill-mode: forwards;
     visibility: hidden;
@@ -37,7 +41,7 @@ h3 {
     top: 250px;
     z-index: -1;
 }
-.shadow {
+.shadow { /*ombre sous le loader*/
     margin-top: 10px;
     width: 100px;
     height: 5px;

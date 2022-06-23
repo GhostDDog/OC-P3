@@ -1,5 +1,9 @@
 /* couleurs : Primaire : #9356DC, Secondaire :#FF79DA, Tertiaire : #99E2D0
    Fonts : Logo et titres: Shrikhand, Texte: Roboto.
+   
+   Fichier validé W3C.
+
+   Mise en page des 4 Restaurants.
 */
 
 
@@ -54,7 +58,7 @@
     }
 
 
-    /* images en dessous du HEADER */
+    /* images en dessous du LOGO */
     .imghead {
         display: flex;
         position: relative;
@@ -64,7 +68,6 @@
         margin-left: auto;
         margin-right: auto;
         z-index: -5;
-
     }
 
     .imghead2 {
@@ -109,7 +112,7 @@
     }
 
 
-    .t-choix {
+    .t-choix { /* plats, entrées, desserts"*/
         border-bottom: 3px solid #99E2D0;
         width: 9%;
     }
@@ -136,7 +139,7 @@
         text-decoration: none;
     }
 
-    .card-title {
+    .card-title { /* conteneur sous-titre + prix (1 visible, 1 hidden)*/
         padding: 5px 0 5px 15px;
         margin-bottom: 5px;
     }
@@ -167,7 +170,7 @@
 
     }
 
-    .ellipsis {
+    .ellipsis { /* point de suspension */
         margin-right: 10px;
         overflow: hidden;
         white-space: nowrap;

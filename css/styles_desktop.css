@@ -1,5 +1,9 @@
 /* couleurs : Primaire : #9356DC, Secondaire :#FF79DA, Tertiaire : #99E2D0
    Fonts : Logo et titres: Shrikhand, Texte: Roboto.
+
+   Fichier validé W3C.
+
+   Page ACCUEIL version DESKTOP.
 */
 
 @media screen and (min-width:993px) {
@@ -35,8 +39,6 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     padding: 20px 0 20px 0;
-    
-
 }
 
 .find {
@@ -54,7 +56,6 @@ form {
     margin-right: -8px;
     height: 50px;
     box-shadow: inset 0 2px 5px rgb(201, 201, 201);
-
 }
 
 .centreFind {
@@ -130,7 +131,6 @@ form {
     position: relative;
     flex-direction: row;
     justify-content: center;
-    
 }
 
 .filtres {
@@ -145,7 +145,6 @@ form {
     margin-right: 30px;
     align-items: center;
     cursor: pointer;
-    
 }
 
 .circle {
@@ -180,7 +179,6 @@ form {
     align-items: center;
     margin: 0 -8px;
     padding: 0 8px 50px 8px;
-   
 }
 
 
@@ -191,8 +189,6 @@ form {
     flex-wrap: wrap;
     width: auto;
     margin-left: 30px;
-    
-       
 }
 
 #t-resto {
@@ -242,7 +238,6 @@ form {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 
 .card-title {
@@ -272,7 +267,6 @@ a {
     cursor: pointer;
   }
  
-  
   .fa.fa-heart:hover {
     animation: fadein 2s;
     transition: 5s;
@@ -282,6 +276,7 @@ a {
     -webkit-text-fill-color:transparent;
     -webkit-text-stroke: transparent;
   }
+
   .fa.fa-heart:hover {
     animation: fadein 2s;
   }
